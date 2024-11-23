@@ -19,8 +19,8 @@ namespace MirrorWorld.Patches
             __instance.mapControllerInstance.CameraZoom += __instance.gameInput.GetAxis(67, 0) * Time.deltaTime;
             if (__instance.dragCamera || __instance.gameInput.IsPlayerControllerJoystick(0))
             {
-                __instance.mapControllerInstance.CameraRotateYOffset += __instance.gameInput.GetAxis(13, 0) * 80f * Time.deltaTime;
-                __instance.mapControllerInstance.CameraRotateXOffset -= __instance.gameInput.GetAxis(14, 0) * 80f * Time.deltaTime;
+                __instance.mapControllerInstance.CameraRotateYOffset -= __instance.gameInput.GetAxis(13, 0) * 80f * Time.deltaTime;
+                __instance.mapControllerInstance.CameraRotateXOffset += __instance.gameInput.GetAxis(14, 0) * 80f * Time.deltaTime;
             }
             return false;
         }
