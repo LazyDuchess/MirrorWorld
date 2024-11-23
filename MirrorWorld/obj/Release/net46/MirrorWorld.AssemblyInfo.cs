@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MirrorWorld")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+910a55ab4a39c57fb68778405cef767abb838848")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea06142ede7ba9ed28407fdc65a6469b33bb3fb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MirrorWorld")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MirrorWorld")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
