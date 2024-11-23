@@ -28,5 +28,18 @@ namespace MirrorWorld
             camera.gameObject.AddComponent<CameraMirrorer>();
             return;
         }
+
+        void OnAudioFilterRead(float[] data, int channels)
+        {
+            if (channels == 2)
+            {
+                for (int i = 0; i < data.Length; i += 2)
+                {
+                    float temp = data[i];
+                    data[i] = data[i + 1];
+                    data[i + 1] = temp;
+                }
+            }
+        }
     }
 }
